@@ -40,19 +40,19 @@ export default function Metrics() {
     predictions: {
       title: "Real-Time Field Predictions",
       tag: "Inference Output",
-      img: "/val_batch0_pred.jpg",
+      img: "./val_batch0_pred.jpg",
       desc: "Direct evaluation export from val_batch0_pred.jpg demonstrating multi-class localized ground-truth tracking under varied illumination styles."
     },
     matrix: {
       title: "Normalized Confusion Matrix",
       tag: "Statistical Verification",
-      img: "/confusion_matrix_normalized.png",
+      img: "./confusion_matrix_normalized.png",
       desc: "Empirical validation proof confirming a stellar 0.95 true-positive crop classification rate, ensuring targeted herbicide operations without cash-crop damage."
     },
     curves: {
       title: "Loss & Evaluation Convergence",
       tag: "Training Telemetry",
-      img: "/results.png",
+      img: "./results.png",
       desc: "Comprehensive breakdown showing monotonic decay across bounding box error metrics alongside sharp gains in global tracking confidence."
     }
   }
