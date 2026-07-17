@@ -30,7 +30,7 @@ export default function ComparisonGrid() {
       >
         <div className="w-full h-full rounded-2xl overflow-y-auto custom-scrollbar">
           <img 
-            src="./onnx_vs_ground_truth_grid.jpg" 
+            src={`${import.meta.env.BASE_URL}onnx_vs_ground_truth_grid.jpg`} 
             alt="Model Comparison Grid" 
             className="w-full h-auto block" 
           />

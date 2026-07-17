@@ -88,7 +88,7 @@ export default function Hero() {
             objectFit: 'cover'
           }}
         >
-          <source src="./drone_video.mp4" type="video/mp4" />
+          <video src={`${import.meta.env.BASE_URL}drone_video.mp4`} controls />
           Your browser does not support the video tag.
         </video>
       </motion.div>
