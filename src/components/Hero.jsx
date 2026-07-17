@@ -78,17 +78,18 @@ export default function Hero() {
       >
         <video
           ref={videoRef}
+          src={`${import.meta.env.BASE_URL}drone_video.mp4`} 
           autoPlay={true}
           muted={true}
           loop={true}
           playsInline={true}
+          controls={false} 
           style={{
             width: '100%',
             height: '100%',
             objectFit: 'cover'
           }}
         >
-          <video src={`${import.meta.env.BASE_URL}drone_video.mp4`} controls />
           Your browser does not support the video tag.
         </video>
       </motion.div>
